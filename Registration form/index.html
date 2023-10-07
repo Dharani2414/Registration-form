@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <div class="container"id="demo">
+            <h2>Registration form</h2>
+
+    <p>Please fill out the registration form</p>
+        <div class="center" >
+    <label for="name">Enter your name:
+       
+        <input
+        id="name" name="name"  type="text" placeholder="enter your name"required/>
+    
+    </label>
+    <label for="email-id">Enter your mail-id:
+        <input
+        id="email-id"  name="email" type="email"placeholder="enter your email" required/>
+        
+    </label>
+    <label for="password">Enter your password:
+        <input 
+         id="password" name="password" type="password" placeholder="enter your password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"required/>
+        <input type="submit">
+    </div>
+    </label>
+</form>
+</html>
